@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ক তে কেনাকাটা</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #000000cc, #e91e63);
+      color: #fff;
+      text-align: center;
+      background-image: url('https://i.ibb.co/7dGSpxDD/20250728-172244.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+    }
+
+    .logo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      background-color: white;
+      background-image: url('https://i.ibb.co/23m7mpsy/20250517-174247.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: #fff;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .icon-box {
+      text-align: center;
+      color: black;
+    }
+
+    .icon-box a {
+      display: inline-block;
+      font-size: 32px;
+      color: black;
+      background: #fff;
+      border-radius: 50%;
+      padding: 18px;
+      width: 70px;
+      height: 70px;
+      line-height: 32px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+
+    .icon-box a:hover {
+      background: #e91e63;
+      color: #fff;
+    }
+
+    .icon-label {
+      margin-top: 10px;
+      color: #fff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="logo"></div>
+    <h1>K Te Kenakata</h1>
+    <p>
+      আপনাকে স্বাগতম ক তে কেনাকাটায়।<br>
+      এখানে আমাদের সকল অনলাইন প্ল্যাটফর্মে প্রবেশ করতে পারবেন। আপনি কোথায় যেতে ইচ্ছুক নিচের আইকনে ক্লিক করুন।
+    </p>
+
+    <div class="social-icons">
+      <div class="icon-box">
+        <a href="https://www.facebook.com/share/1B1FNmbQXk/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <div class="icon-label">Facebook</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="https://www.instagram.com/k.te.kenakata?igsh=YzljYTk1ODg3Zg==" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="icon-label">Instagram</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="http://tiktok.com/@k.te.kenakata" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <div class="icon-label">TikTok</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="https://wa.me/8801332118301" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <div class="icon-label">WhatsApp</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+        <div class="icon-label">Website</div>
+      </div>
+
+      <div class="icon-box">
+        <a href="mailto:ktekenakata@gmail.com"><i class="fas fa-envelope"></i></a>
+        <div class="icon-label">Email</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
